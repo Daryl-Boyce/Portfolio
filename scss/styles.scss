@@ -1,9 +1,30 @@
-@use "partials/_home__body.scss";
+// 
+// Home page
+@use "partials/home/_home__body.scss";
 
-@use "partials/_hero__banner.scss";
+@use "partials/home/_home__hero__banner.scss";
 
-@use "partials/_main__nav.scss";
+@use "partials/home/_home__main__nav.scss";
 
-@use "partials/_project__cards.scss";
+@use "partials/home/_home__project__card.scss";
 
-@use "partials/_home__header.scss";
+@use "partials/home/_home__header.scss";
+
+@use "partials/home/_home__form.scss";
+// 
+// About me page
+@use "partials/about__me/_about__me__main__nav.scss";
+
+@use "partials/about__me/_about__me__body.scss";
+
+@use "partials/about__me/_about__me__content.scss";
+// 
+// Coding examples page
+@use "partials/coding__examples/_coding__examples__body.scss";
+// 
+// SCS Scheme
+@use "partials/scs__scheme/_scs__scheme__body.scss";
+
+@use "partials/scs__scheme/_scs__scheme__content.scss";
+
+@use "partials/scs__scheme/_scs__scheme__main__nav.scss";

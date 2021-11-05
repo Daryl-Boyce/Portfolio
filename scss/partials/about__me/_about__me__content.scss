@@ -1,0 +1,42 @@
+.about__me__content {
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 90px;
+
+    p{
+        margin-top: 20px;
+        padding: 0px 30px 0px 30px;
+        font-size: 20px;
+        color: #2A9D8F;
+
+        
+    }
+    
+    hr {
+        display: flex;
+        border: solid #E9C46A 2px;
+        border-radius: 16px;
+        width: 20%;
+        margin: 30px 200px 2px 200px;
+    }
+    
+}
+
+@media screen and (min-width: 860px) {
+    .about__me__content {
+        p {
+            padding: 0px 60px 0px 60px
+        }
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .about__me__content {
+        p {
+            padding: 0px 500px 0px 500px
+        }
+    }
+}
