@@ -152,6 +152,10 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.main__inner__nav__top__box a {
+  color: #E9C46A;
+  text-decoration: none;
+}
 
 .main__inner__nav__links {
   display: flex;
@@ -617,6 +621,10 @@ header {
   color: #E9C46A;
   flex-direction: column;
   align-items: center;
+}
+.main__inner__nav__top__box a {
+  color: #E9C46A;
+  text-decoration: none;
 }
 
 .main__inner__nav__links {
