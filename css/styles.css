@@ -38,38 +38,34 @@ body {
   background: url("/assets/hero__image__1.png");
   background-size: cover;
   background-repeat: no-repeat;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .hero__banner__typing {
   display: flex;
-  width: 85%;
-  height: 20%;
+  width: 97%;
+  height: 11%;
 }
 
 .hero__banner__typing h1 {
   display: inherit;
   width: 100%;
-  height: 75%;
+  height: 100%;
+  text-align: center;
   color: #0D1321;
   font-family: "Merriweather", serif;
-  font-size: 120px;
+  font-size: 40px;
+  font-style: bold;
   overflow: hidden;
-  /* Ensures the content is not revealed until the animation */
   border-right: 0.1em solid #0D1321;
-  /* The typwriter cursor */
-  white-space: nowrap;
-  /* Keeps the content on a single line */
+  white-space: wrap;
   margin: 0 auto;
-  /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.12em;
-  /* Adjust as needed */
-  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+  animation: typing 1.5s steps(100, end), blink-caret 0.5s step-end infinite;
 }
 
-/* The typing effect */
 @keyframes typing {
   from {
     width: 0;
@@ -78,7 +74,6 @@ body {
     width: 100%;
   }
 }
-/* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to {
     border-color: transparent;
@@ -87,6 +82,27 @@ body {
     border-color: #0D1321;
   }
 }
+@keyframes fade__in {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 1%;
+  }
+}
+@keyframes fade__in {
+  from {
+    opacity: 1%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+.hero__banner__fade__text {
+  display: flex;
+  animation: fade__in 4.3s;
+}
+
 .main__nav {
   display: flex;
   height: 120.25px;
