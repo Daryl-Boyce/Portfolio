@@ -4,13 +4,13 @@
     display:flex;
     height: 120.250px;
     width: 77.266px;
-    border: solid 3px #E9C46A;
+    border: solid 3px #0D1321;
     border-radius: 16px;
     overflow-x: hidden; /* Disables horizontal scroll */
     overflow-y: hidden;
     position: fixed;
     left: 0;
-    background-color: #264653;
+    background-color: #0D1321;
     margin: 1.5em 0em 0em 1.5em;
     
 }
@@ -31,7 +31,7 @@
     display: flex;
     width: 14%;
     height: 10em;
-    background-color: #264653;
+    background-color: #0D1321;
     color: #2A9D8F;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -98,4 +98,29 @@
         color: #E9C46A;
     }
     
+}
+
+// 
+// 
+.main__nav:hover {
+    height: 246.25px;
+    width: 166.266px;
+}
+
+.main__nav:hover .main__iner__nav__burger__menu {
+    display: none;
+
+}
+
+.main__nav:hover .main__inner__nav__links {
+    display: flex;
+    width: 100%;
+    height: 12em;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    text-transform: capitalize;
+    padding-top: 0.5em;
+    justify-content: flex-start;
 }
