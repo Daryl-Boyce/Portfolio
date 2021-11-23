@@ -57,6 +57,9 @@
 @keyframes fade__in {
     from {opacity: 1%} to{opacity: 100% }
 }
+// 
+// 
+// 
 .hero__banner__fade__text {
     display: flex;
     animation:
@@ -205,4 +208,35 @@
       blink-caret .5s step-end infinite;
   }
 }
-  
+
+.hero__typer {
+  font-family: inherit;
+  font-size: 100px;
+  color: #0D1321;
+  text-transform: capitalize;
+}
+
+
+
+
+
+.hero__lower__text{
+  display: flex;
+  font-size: 54px;
+  text-transform: capitalize;
+  color: #0D1321;
+  animation: fadein 3s;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+  margin-top: 30px;
+}
+
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+
+
+

@@ -142,7 +142,7 @@ button {
   /* nav */
   ul.nav__drop__down {
     display: flex;
-    position: absolute;
+    position: fixed;
     z-index: 99999;
     background: #0D1321;
     border: 4px solid #E9C46A;

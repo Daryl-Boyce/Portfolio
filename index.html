@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- These are the links for things like style, font, icons ect. -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is for the use of the SVG file on the tab when page loads. -->
     <link rel="icon" href="assets\favicon.ico">
+    <!-- Link for the CSS file.  -->
     <link rel="stylesheet" href="css\styles.css">
+    <!-- links for the use of the main font from google. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,
     wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Script needed for the use of icons from font awesome. -->
     <script src="https://kit.fontawesome.com/8770348bdd.js" crossorigin="anonymous">
-	</script>
+    </script>
+    <!-- This Apears on the tab when the page loads -->
     <title>Daryl Boyce's Portfolio</title>
 </head>
+<!-- This is the main section that wraps everything on the site. -->
 <body class="home__page__body">
+    <!-- The nav that appears on all the pages -->
     <nav class="main__nav">
         <!-- Inner Nav -->
         <div class="main__inner__nav">
-        <!--  -->
+            <!--  -->
             <div class="main__inner__nav__top__box">
-                <a href="index.html">D</a>   
+                <a href="index.html">D</a>
             </div>
             <!--  -->
             <!-- Burger menu -->
             <button class="menu-btn">
                 <img src="js\plugins\side__menu\menu.svg" class="filter">
-              </button>
-              <!-- X to close on menu -->
-              <button class="menu-btnx">
+            </button>
+            <!-- X to close on menu -->
+            <button class="menu-btnx">
                 <img src="js\plugins\side__menu\close.svg" class="filter">
-              </button>
+            </button>
         </div>
     </nav>
+    <!-- The pop out part of the nav with the links -->
     <ul class="nav__drop__down">
         <li><a href="about__me.html">about me</a></li>
         <li><a href="#">my portfolio</a></li>
         <li><a href="coding__examples.html">coding examples</a></li>
         <li><a href="scs__scheme.html">scs scheme</a></li>
-      </ul>
+    </ul>
+    <!-- The section of that pages and wraps everything after the body. -->
     <div class="home__page__body__inner">
         <!--  -->
         <!-- header -->
@@ -46,14 +57,8 @@
             <!--  -->
             <!-- Hero banner main page -->
             <div class="hero__banner">
-                <!-- <div class= "hero__banner__typing">
-                    <h1>My Name is Daryl Boyce</h1>
-                </div>
-                <div class="hero__banner__fade__text">
-                    <h2>I'm a Web Developer</h2>
-                </div>     -->
-                <div class="container"></div>
-
+                <div class="hero__typer"></div>
+                <div class="hero__lower__text">I am a web developer</div>
 
             </div>
             <!--  -->
@@ -119,8 +124,8 @@
                         <!--  -->
                         <!--  -->
                     </div>
-                     <!-- HTML for cards  -->
-                     <div class="projects__inner__card">
+                    <!-- HTML for cards  -->
+                    <div class="projects__inner__card">
                         <!--  -->
                         <!-- image for the cards -->
                         <a href="#" class="projects__inner__cards__image">
@@ -176,50 +181,58 @@
             <!--  -->
         </div>
         <!--  -->
-        <div class="lower__form">
+        <!-- <!-- <div class="lower__form"> -->
             <div class="lower__form__inner">
                 <hr>
                 <div class="lower__form__inner__description">
                     <h1>get in touch</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra erat tellus, 
-                        pulvinar gravida massa tincidunt id. Morbi pulvinar mauris felis, sed vestibulum urna
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Fusce pharetra erat tellus,
+                        pulvinar gravida massa tincidunt id. Morbi 
+                        pulvinar mauris felis, sed vestibulum urna
                         venenatis eu.
                     </p>
-                    
+
                     <h3>000000</h3>
 
                     <a href="#">contact@darylboyce.com</a>
-                    
+
                     <p>
-                        Nulla ut nunc lectus. Vivamus volutpat diam ac bibendum iaculis. Nulla facilisi.
-                        Suspendisse iaculis, justo in auctor viverra, leo erat aliquet enim, et varius arcu 
-                        leo nec purus. Mauris tincidunt condimentum nisl, vel vulputate elit dictum vel.
+                        Nulla ut nunc lectus. Vivamus volutpat diam ac bibendum 
+                        iaculis. Nulla facilisi.
+                        Suspendisse iaculis, justo in auctor viverra, leo erat 
+                        aliquet enim, et varius arcu
+                        leo nec purus. Mauris tincidunt condimentum nisl, vel 
+                        vulputate elit dictum vel.
                     </p>
                 </div>
                 <div class="lower__form__inner__inputs">
-                    <form>
-                        <input type="text" id="first__name" placeholder="First Name*">
-                        <input type="text" id="last__name" placeholder="Last Name*">
+                    <form id="lower__form" action="/" method="GET">
+                        <input type="text"  id="first__name" placeholder="First Name*" >
+                        <input  type="text" id="last__name" placeholder="Last Name*" >
                         <input type="text" id="email__address" placeholder="Email Address*">
                         <input type="text" id="subject" placeholder="Subject">
                         <textarea type="text" id="message" placeholder="Message"></textarea>
-                        <input type="button" id="submit" value="Submit">
+                        <input type="submit" id="submit" value="Submit">
                     </form>
+
                 </div>
             </div>
-        </div>
-    </div>
-
-   
+        </div> 
+        
+       
     
-
-
-
+    
+    
+    </div>
+    <!-- These are the scripts required for the javascript and jquery. -->
     <script src="jquery-3.6.0.js"></script>
     <script src="js\plugins\typed.js-master\lib\typed.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script> 
+    <!-- Typing effect -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
+    <!-- Main javascript file. -->
     <script src="main.js"></script>
-
 </body>
+
 </html>

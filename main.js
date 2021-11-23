@@ -1,6 +1,6 @@
 //This is the text typewriter code
-var typed = new Typed('.container', {
-    strings: ["I'm a Web Developer", "I'm a Programmer", "I'm a Designer"],
+var typed = new Typed('.hero__typer', {
+    strings: ["My name is Daryl Boyce"],
     // these are the sentences that get typed out
     showCursor: false,
     // this disabled the standard cursor
@@ -9,8 +9,7 @@ var typed = new Typed('.container', {
     backSpeed: 100,
     backDelay: 1000,
     // These set the speed and the amount of characters removed
-    loop: true,
-    loopCount: Infinity
+    
     // These rules set the looping aspect so that the typewriter never stops
   });
 ///
@@ -40,3 +39,29 @@ $(function (){
 });
 ///
 ///
+///This is for the form validation
+lower__form.addEventListener('submit', (e) => {
+  const email__check = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  
+  e.preventDefault();
+  
+  if (first__name.value == "") {
+      alert("Enter a your  first name");
+  }else
+  if (last__name.value == ""){
+    alert("Enter a your last name");
+    }
+  
+    if ( email__address.value == "" ) {
+    alert("Enter a Valid Email");
+    }else
+
+    if ( email__address.value.match(email__check) ) {
+    
+    } else
+    alert("Enter a Vaild Email");
+  
+})
+
+
+// [^acb].text(first__name.value)
