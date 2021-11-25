@@ -918,28 +918,78 @@ body {
 
 .coding__example__page__body__inner {
   display: flex;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   flex-direction: column;
   align-content: center;
   align-items: center;
 }
-.coding__example__page__body__inner h1 {
+
+.projects__card__image {
   display: flex;
-  color: #E9C46A;
   height: 50%;
+  width: 100%;
+  padding-bottom: 20px;
   flex-direction: column;
-  font-size: 50px;
-  text-transform: capitalize;
+  flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
-  padding-top: 4em;
 }
-.coding__example__page__body__inner h1 hr {
+.projects__card__image h1 {
+  padding-top: 184px;
+  margin-bottom: 0px;
+  color: #E9C46A;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.projects__text {
   display: flex;
-  border: solid #E9C46A 2px;
-  width: 30%;
-  margin: 20px 200px 2px 200px;
+  height: 60%;
+  width: 100%;
+  justify-content: center;
+}
+
+.projects__card__image__inner {
+  display: flex;
+  height: 80%;
+  width: 80%;
+  background: url(/assets/Validator.png);
+  background-size: 100% 100%;
+  margin-top: 17px;
+  border: solid 3px #E9C46A;
+  border-radius: 16px;
+  padding-bottom: 700px;
+}
+
+.projects__text__inner {
+  display: flex;
+  height: 80%;
+  width: 80%;
+  background-color: none;
+  border: solid 3px #E9C46A;
+  padding-bottom: 50px;
+  background-color: #1f756b;
+  border-radius: 16px;
+  margin-top: 500px;
+}
+
+.projects__text__inner__paragraphs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px 20px 5px 20px;
+}
+.projects__text__inner__paragraphs p {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  justify-content: flex-start;
+  text-align: left;
+  font-family: inherit;
+  font-size: 17px;
+  color: #f3e0ac;
+  padding: 5px 20px 0px 20px;
+  margin-top: 2px;
 }
 
 body {
