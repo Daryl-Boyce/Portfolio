@@ -1,4 +1,6 @@
-//This is the text typewriter code
+//////////////////////////////////////
+//////// Text Typewriter Code/////////
+/////////////////////////////////////
 var typed = new Typed('.hero__typer', {
   strings: ["My name is Daryl Boyce"],
   // these are the sentences that get typed out
@@ -13,8 +15,9 @@ var typed = new Typed('.hero__typer', {
   // These rules set the looping aspect so that the typewriter never stops
 });
 ///
-///
-///This is the pop down menu code.
+//////////////////////////////////////
+/////////Pop Down Menu Code./////////
+/////////////////////////////////////
 $(function () {
 
   // hide main menu

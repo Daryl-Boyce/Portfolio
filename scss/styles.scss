@@ -26,4 +26,8 @@
 @use "partials/scs__scheme/_scs__scheme__body.scss";
 
 @use "partials/scs__scheme/_scs__scheme__content.scss";
+// 
+// Media Queries
+@use "partials/home/_home__media__queries.scss";
 
+@use "partials/about__me/_about__me__media__queries";

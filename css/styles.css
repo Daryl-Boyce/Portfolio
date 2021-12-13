@@ -1,7 +1,7 @@
 body {
   display: flex;
   height: 100%;
-  width: 100vw;
+  width: 100%;
   margin: 0px;
   font-family: "Merriweather", serif;
   background-color: #0D1321;
@@ -160,13 +160,6 @@ body {
   }
 }
 @media (min-width: 1200px) {
-  .hero__banner__typing {
-    display: flex;
-    width: 93%;
-    height: 15%;
-  }
-}
-@media (min-width: 1200px) {
   .hero__banner__typing h1 {
     display: inherit;
     width: 100%;
@@ -193,8 +186,7 @@ body {
     width: 82%;
     height: 15%;
   }
-}
-@media (min-width: 1500px) {
+
   .hero__banner__typing h1 {
     display: inherit;
     width: 100%;
@@ -221,8 +213,7 @@ body {
     width: 85%;
     height: 20%;
   }
-}
-@media (min-width: 1850px) {
+
   .hero__banner__typing h1 {
     display: inherit;
     width: 100%;
@@ -244,8 +235,9 @@ body {
   }
 }
 .hero__typer {
+  display: flex;
   font-family: inherit;
-  font-size: 100px;
+  font-size: 80px;
   color: #0D1321;
   text-transform: capitalize;
 }
@@ -504,153 +496,6 @@ ul.nav__drop__down a {
   justify-content: center;
 }
 
-@media (min-width: 720px) {
-  .inner__content {
-    display: flex;
-    width: 100%;
-    height: 123em;
-    background-color: #0D1321;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    align-items: center;
-  }
-}
-@media (min-width: 720px) {
-  .projects__inner {
-    display: flex;
-    width: 66%;
-    height: 15%;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    color: #E9C46A;
-  }
-}
-@media (min-width: 720px) {
-  .projects__inner__card {
-    display: flex;
-    width: 15em;
-    height: 100%;
-    margin-top: 2em;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-right: 2em;
-  }
-}
-@media (min-width: 860px) {
-  .projects__inner {
-    display: flex;
-    width: 66%;
-    height: 70%;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    color: #E9C46A;
-    align-content: flex-start;
-  }
-}
-@media (min-width: 860px) {
-  .projects__inner__card {
-    display: flex;
-    width: 15em;
-    height: 15em;
-    margin-top: 2em;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-right: 2em;
-  }
-}
-@media (min-width: 860px) {
-  .projects__inner {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    color: #E9C46A;
-    padding-left: 37px;
-  }
-}
-@media (min-width: 860px) {
-  .projects {
-    height: 40em;
-  }
-}
-@media (min-width: 860px) {
-  .projects__inner {
-    display: flex;
-    width: 66%;
-    height: 35%;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    color: #E9C46A;
-  }
-}
-@media (min-width: 860px) {
-  .projects__inner {
-    display: flex;
-    width: 66%;
-    height: 70%;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    color: #E9C46A;
-    align-content: flex-start;
-  }
-}
-@media (min-width: 1200px) {
-  .projects__inner__card {
-    display: flex;
-    width: 20em;
-    height: 18em;
-    margin-top: 2em;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-right: 2em;
-  }
-}
-@media (min-width: 1200px) {
-  .projects__inner {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    color: #E9C46A;
-    padding-left: 37px;
-    margin-bottom: 1-px;
-  }
-}
-@media (min-width: 1200px) {
-  .projects {
-    height: 40em;
-  }
-}
-@media (min-width: 1200px) {
-  .projects__inner {
-    display: flex;
-    width: 100%;
-    height: 45%;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    color: #E9C46A;
-  }
-}
 header {
   display: flex;
   height: 100%;
@@ -786,54 +631,6 @@ header {
   font-size: 14px;
 }
 
-@media (min-width: 720px) {
-  .lower__form__inner hr {
-    width: 43%;
-  }
-}
-@media (min-width: 720px) {
-  .lower__form__inner__inputs {
-    display: flex;
-    width: 100%;
-    height: 32em;
-  }
-  .lower__form__inner__inputs form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding-right: 10%;
-    width: 100%;
-  }
-}
-@media (min-width: 960px) {
-  .lower__form__inner hr {
-    width: 59%;
-  }
-}
-@media (min-width: 960px) {
-  .lower__form__inner__inputs {
-    display: flex;
-    width: 100%;
-    height: 32em;
-  }
-  .lower__form__inner__inputs form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding-right: 10%;
-    width: 100%;
-    padding-left: 43px;
-  }
-}
-@media (min-width: 960px) {
-  .lower__form__inner__description {
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-}
 body {
   display: flex;
   height: 100vh;
@@ -862,13 +659,14 @@ body {
   align-items: flex-end;
   text-transform: capitalize;
   color: #E9C46A;
+  margin-top: 125px;
 }
 .about__me__page__body__inner hr {
   display: flex;
   border: solid #E9C46A 2px;
   border-radius: 16px;
   width: 20%;
-  margin: 30px 200px 30px 200px;
+  margin: 10px 200px 30px 200px;
 }
 
 .about__me__content {
@@ -906,7 +704,7 @@ body {
 body {
   display: flex;
   height: 100%;
-  width: 100vw;
+  width: 100%;
   margin: 0px;
   font-family: "Merriweather", serif;
   background-color: #0D1321;
@@ -935,18 +733,30 @@ body {
   align-items: center;
 }
 .projects__card__image h1 {
-  padding-top: 184px;
+  display: flex;
+  width: 200px;
+  padding-top: 150px;
+  padding-bottom: 0px;
   margin-bottom: 0px;
   color: #E9C46A;
   text-transform: capitalize;
-  text-decoration: underline;
+  text-decoration: none;
+  text-align: center;
+}
+.projects__card__image hr {
+  display: flex;
+  border: solid #E9C46A 2px;
+  width: 20%;
+  margin: 30px 200px 2px 195px;
+  padding-left: 40px;
 }
 
 .projects__text {
   display: flex;
-  height: 60%;
+  height: 50%;
   width: 100%;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .projects__card__image__inner {
@@ -958,7 +768,7 @@ body {
   margin-top: 17px;
   border: solid 3px #E9C46A;
   border-radius: 16px;
-  padding-bottom: 700px;
+  padding-bottom: 400px;
 }
 
 .projects__text__inner {
@@ -967,10 +777,10 @@ body {
   width: 80%;
   background-color: none;
   border: solid 3px #E9C46A;
-  padding-bottom: 50px;
+  padding-bottom: 304px;
   background-color: #1f756b;
   border-radius: 16px;
-  margin-top: 500px;
+  margin-top: 365px;
 }
 
 .projects__text__inner__paragraphs {
@@ -1029,7 +839,7 @@ body {
     margin-top: 250px;
     margin-right: 450px;
     margin-left: 30px;
-    padding-bottom: 1px;
+    padding-bottom: 95px;
   }
 
   .projects__text__inner__paragraphs {
@@ -1138,6 +948,213 @@ body {
 @media screen and (min-width: 1300px) {
   .scs__scheme__content p {
     padding: 0px 500px 0px 500px;
+  }
+}
+@media (min-width: 459px) {
+  .lower__form__inner {
+    padding: 0px;
+  }
+  .lower__form__inner hr {
+    margin-left: 187px;
+  }
+  .lower__form__inner p {
+    height: 145px;
+    padding: 0px 100px 10px 100px;
+  }
+  .lower__form__inner h3 {
+    padding: 0px 200px 0px 200px;
+  }
+
+  #lower__form {
+    margin: 40px 0px 20px 40px;
+  }
+
+  .lower__form__inner__description {
+    padding: 0px;
+  }
+
+  .lower__form__inner__description h1 {
+    padding: 0px;
+  }
+  .lower__form__inner__description a {
+    padding: 0px;
+  }
+
+  .hero__banner {
+    padding-top: 0px;
+    padding-left: 60px;
+    padding-right: 10px;
+    font-size: 21px;
+  }
+
+  .hero__typer {
+    font-size: 58px;
+  }
+
+  .hero__lower__text {
+    text-align: center;
+    font-size: 35px;
+    padding-right: 40px;
+  }
+}
+@media (min-width: 720px) {
+  #projects__id {
+    height: 40em;
+  }
+
+  .projects__inner {
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #E9C46A;
+  }
+
+  .projects__inner__card {
+    display: flex;
+    width: 15em;
+    height: 100%;
+    margin-top: 2em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-right: 2em;
+  }
+
+  .hero__typer {
+    font-size: 65px;
+    width: 50%;
+  }
+
+  .inner__content {
+    display: flex;
+    width: 100%;
+    height: 123em;
+    background-color: #0D1321;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: center;
+  }
+
+  .lower__form__inner__description {
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .lower__form__inner {
+    padding: 0px;
+  }
+  .lower__form__inner hr {
+    margin-left: 40%;
+  }
+  .lower__form__inner p {
+    height: 90px;
+    padding: 0px 100px 0px 100px;
+    margin-bottom: 0px;
+  }
+  .lower__form__inner h3 {
+    padding: 0px 200px 0px 200px;
+    margin-bottom: 0px;
+  }
+
+  .lower__form {
+    padding: 0px;
+  }
+
+  #lower__form {
+    margin-left: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  .hero__banner__typing {
+    display: flex;
+    width: 93%;
+    height: 15%;
+  }
+
+  .projects__inner__card {
+    display: flex;
+    width: 20em;
+    height: 18em;
+    margin-top: 2em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-right: 2em;
+  }
+
+  .projects__inner {
+    display: flex;
+    width: 94%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #E9C46A;
+    padding-left: 37px;
+    margin-bottom: 1-px;
+  }
+
+  .projects {
+    height: 40em;
+  }
+
+  .projects__inner {
+    display: flex;
+    width: 100%;
+    height: 45%;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #E9C46A;
+  }
+}
+@media (min-width: 1850px) {
+  .hero__banner__typing {
+    display: flex;
+    width: 85%;
+    height: 20%;
+  }
+
+  .hero__banner__typing h1 {
+    display: inherit;
+    width: 100%;
+    height: 75%;
+    color: #0D1321;
+    font-family: "Merriweather", serif;
+    font-size: 120px;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: 0.1em solid #0D1321;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.12em;
+    /* Adjust as needed */
+    animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+  }
+
+  .projects__inner {
+    width: 75%;
+  }
+
+  #lower__form {
+    margin-left: 188px;
+  }
+
+  .lower__form__inner p {
+    width: 438px;
   }
 }
 

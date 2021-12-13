@@ -1,0 +1,268 @@
+// 
+// 
+//////////////////////////////////////////
+ ////// Mobile Friendly Size, 459px /////
+  //////////////////////////////////////
+@media (min-width: 459px){
+    // 
+    // 
+    .lower__form__inner {
+        padding: 0px;
+
+        hr {
+            margin-left: 187px;
+        }
+        // 
+        p{
+            height: 145px;
+            padding: 0px 100px 10px 100px;
+        }
+        // 
+        h3{
+            padding: 0px 200px 0px 200px;
+        }
+    }
+    // 
+    // 
+    #lower__form{
+        margin: 40px 0px 20px 40px;
+    }
+    // 
+    // 
+    .lower__form__inner__description{
+        padding: 0px;
+    }
+    // 
+    // 
+    .lower__form__inner__description {
+        
+        h1{
+            padding: 0px;
+        }
+
+        a{
+            padding: 0px;
+        }
+    }
+    // 
+    // 
+    .hero__banner{
+        padding-top: 0px;
+        padding-left: 60px;
+        padding-right: 10px;
+        font-size: 21px;
+    }
+    // 
+    // 
+    .hero__typer{
+        font-size: 58px;
+    }
+    // 
+    // 
+    .hero__lower__text {
+        text-align: center;
+        font-size: 35px;
+        padding-right: 40px;
+    }
+    // 
+    // 
+
+}
+// 
+// 
+///////////////////////////////////
+ ////// Media Query for 720px ///
+  /////////////////////////////
+@media (min-width: 720px) { 
+    #projects__id{
+        height: 40em;
+    }
+    // 
+    // 
+    .projects__inner {
+        display: flex;
+        width: 100%;
+        height: 25%;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        color: #E9C46A;
+    }
+    // 
+    // 
+    .projects__inner__card {
+        display: flex;
+        width: 15em;
+        height: 100%;
+        margin-top: 2em;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-right: 2em;
+    }
+    // 
+    // 
+    .hero__typer{
+        font-size: 65px;
+        width: 50%;
+
+    }
+    // 
+    // 
+    .inner__content {
+        display: flex;
+        width: 100%;
+        height: 123em;
+        background-color: #0D1321;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        align-items: center;
+        
+        
+    }
+    // 
+    // 
+    .lower__form__inner__description{
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    // 
+    // 
+    .lower__form__inner {
+        padding: 0px;
+
+        hr {
+            margin-left: 40%;
+        }
+        // 
+        p{
+            height: 90px;
+            padding: 0px 100px 0px 100px;
+            margin-bottom: 0px;
+        }
+        // 
+        h3{
+            padding: 0px 200px 0px 200px;
+            margin-bottom: 0px;
+        }
+    }
+    // 
+    // 
+    .lower__form{
+        padding: 0px;
+    }
+    // 
+    // 
+    #lower__form{
+        margin-left: 80px;
+    }
+        
+}
+// 
+// 
+///////////////////////////////////
+ ////// Media Query for 1200px ///
+  /////////////////////////////
+@media (min-width: 1200px){ 
+    .hero__banner__typing {
+     display: flex;
+     width: 93%;
+     height: 15%;
+    }
+    // 
+    .projects__inner__card {
+        display: flex;
+        width: 20em;
+        height: 18em;
+        margin-top: 2em;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-right: 2em;
+        
+    
+        
+    }
+    //
+    .projects__inner {
+        display: flex;
+        width: 94%;
+        height: 100%;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        color: #E9C46A;
+        padding-left: 37px;
+        margin-bottom: 1-px;
+    }
+    // 
+    .projects {
+        height: 40em;
+    }
+    // 
+    .projects__inner {
+        display: flex;
+        width: 100%;
+        height: 45%;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        color: #E9C46A;
+    }
+    // 
+    // 
+    
+  }
+  // 
+// 
+///////////////////////////////////////////
+ ////// Media Query for fulll screen  ///
+  //////////////////////////////////////
+@media (min-width:1850px){ 
+
+    .hero__banner__typing {
+      display: flex;
+      width: 85%;
+      height: 20%;
+     }   
+  
+    .hero__banner__typing h1 {
+      display: inherit;
+      width: 100%;
+      height: 75%;
+      color: #0D1321;
+      font-family: "Merriweather", serif;
+      font-size: 120px;
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .1em solid #0D1321; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .12em; /* Adjust as needed */
+      animation: 
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+    }
+
+
+
+    .projects__inner {
+        width: 75%;     
+    }
+
+    #lower__form {
+        margin-left: 188px;
+    }
+
+
+
+    .lower__form__inner p {
+        width: 438px;
+    }
+}

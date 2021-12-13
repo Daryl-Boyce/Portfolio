@@ -1,7 +1,7 @@
 body {
     display: flex;
     height: 100%;
-    width: 100vw;
+    width: 100%;
     margin: 0px;
     font-family: "Merriweather", serif;
     background-color: #0D1321;
@@ -17,29 +17,7 @@ body {
     width: 100%;
     flex-direction: column;
     align-content: center;
-    align-items: center;
-
-    // h1 {
-    //     display: flex;
-    //     color: #E9C46A;
-    //     height: 50%;
-    //     flex-direction: column;
-    //     font-size: 50px;
-    //     text-transform: capitalize;
-    //     align-items: center;
-    //     justify-content: center;
-    //     padding-top: 4em;
-
-    //     hr {
-    //         display: flex;
-    //         border: solid #E9C46A 2px;
-    //         width: 30%;
-    //         margin: 20px 200px 2px 200px;
-    //     }
-    // }
-    
-    
-    
+    align-items: center;    
 }
 
 .projects__card__image {
@@ -53,19 +31,33 @@ body {
     align-items: center;
 
     h1{
-        padding-top: 184px;
+        display: flex;
+        width: 200px;
+        padding-top: 150px;
+        padding-bottom: 0px;
         margin-bottom: 0px;
         color: #E9C46A;
         text-transform: capitalize;
-        text-decoration: underline;
+        text-decoration: none;
+        text-align: center;
+        
+    }
+
+    hr{
+        display: flex;
+        border: solid #E9C46A 2px;
+        width: 20%;
+        margin: 30px 200px 2px 195px;
+        padding-left: 40px;
     }
 }
 
 .projects__text {
     display: flex;
-    height: 60%;
+    height: 50%;
     width: 100%;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 
@@ -80,7 +72,7 @@ body {
     margin-top: 17px;
     border: solid 3px #E9C46A;
     border-radius: 16px;
-    padding-bottom: 700px;
+    padding-bottom: 400px;
 }
 
 .projects__text__inner {
@@ -89,10 +81,10 @@ body {
     width: 80%;
     background-color: none;
     border: solid 3px #E9C46A;
-    padding-bottom: 50px;
+    padding-bottom: 304px;
     background-color: #1f756b;
     border-radius: 16px;
-    margin-top: 500px;
+    margin-top: 365px;
 }
 
 .projects__text__inner__paragraphs {
@@ -166,7 +158,7 @@ body {
             margin-top: 250px;
             margin-right: 450px;
             margin-left: 30px;
-            padding-bottom: 1px;
+            padding-bottom: 95px;
             // padding-right: 300px;
             
         }

@@ -7,19 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- This is for the use of the SVG file on the tab when page loads. -->
-    <link rel="icon" href="assets\favicon.ico">
+    <link rel="icon" href="assets/favicon.ico">
     <!-- Link for the CSS file.  -->
-    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <!-- links for the use of the main font from google. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,
-    wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <!-- Script needed for the use of icons from font awesome. -->
     <script src="https://kit.fontawesome.com/8770348bdd.js" crossorigin="anonymous">
     </script>
     <!-- This Apears on the tab when the page loads -->
-    <title>Daryl Boyce's Portfolio</title>
+    <title>Daryl Boyce's Portfolio | Home Page</title>
 </head>
 <!-- This is the main section that wraps everything on the site. -->
 <body class="home__page__body">
@@ -34,18 +33,18 @@
             <!--  -->
             <!-- Burger menu -->
             <button class="menu-btn">
-                <img src="js\plugins\side__menu\menu.svg" class="filter">
+                <img src="js/plugins/side__menu/menu.svg" alt="Button to open menu" class="filter">
             </button>
             <!-- X to close on menu -->
             <button class="menu-btnx">
-                <img src="js\plugins\side__menu\close.svg" class="filter">
+                <img src="js/plugins/side__menu/close.svg" alt="Button to close menu" class="filter">
             </button>
         </div>
     </nav>
     <!-- The pop out part of the nav with the links -->
     <ul class="nav__drop__down">
         <li><a href="about__me.html">about me</a></li>
-        <li><a href="#">my portfolio</a></li>
+        <li><a href="index.html#projects__id">my portfolio</a></li>
         <li><a href="coding__examples.html">coding examples</a></li>
         <li><a href="scs__scheme.html">scs scheme</a></li>
     </ul>
@@ -58,7 +57,7 @@
             <!-- Hero banner main page -->
             <div class="hero__banner">
                 <div class="hero__typer"></div>
-                <div class="hero__lower__text">I am a web developer</div>
+                <div class="hero__lower__text">I am a <br> web developer</div>
 
             </div>
             <!--  -->
@@ -69,7 +68,7 @@
         <div class="inner__content">
             <!--  -->
             <!-- Project cards -->
-            <div class="projects">
+            <div id= "projects__id" class="projects">
                 <!--  -->
                 <!-- Internal space for cards -->
                 <div class="projects__inner">
@@ -181,7 +180,7 @@
             <!--  -->
         </div>
         <!--  -->
-        <!-- <!-- <div class="lower__form"> -->
+        <!-- <div class="lower__form"> -->
             <div class="lower__form__inner">
                 <hr>
                 <div class="lower__form__inner__description">
@@ -213,22 +212,22 @@
                         <input  type="text" id="last__name" placeholder="Last Name*" >
                         <input type="text" id="email__address" placeholder="Email Address*">
                         <input type="text" id="subject" placeholder="Subject">
-                        <textarea type="text" id="message" placeholder="Message"></textarea>
+                        <textarea  id="message" placeholder="Message"></textarea>
                         <input type="submit" id="submit" value="Submit">
                     </form>
 
                 </div>
             </div>
-        </div> 
+    </div> 
         
        
     
     
     
-    </div>
+   
     <!-- These are the scripts required for the javascript and jquery. -->
     <script src="jquery-3.6.0.js"></script>
-    <script src="js\plugins\typed.js-master\lib\typed.js"></script>
+    <script src="js/plugins/typed.js-master/lib/typed.js"></script>
     <!-- Typing effect -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
     <!-- Main javascript file. -->
