@@ -33,10 +33,11 @@ body {
 
 .hero__banner {
   display: flex;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  background: url("/assets/hero__image__1.png");
+  background: url("/assets/hero__image__2.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   flex-direction: column;
   align-items: center;
@@ -502,6 +503,14 @@ header {
   width: 100%;
 }
 
+.hero__typer {
+  color: #adc4b6;
+}
+
+.hero__lower__text {
+  color: #E9C46A;
+}
+
 .lower__form {
   display: flex;
   width: 100%;
@@ -571,7 +580,7 @@ header {
 }
 
 #first__name {
-  width: 30em;
+  width: 20em;
   height: 3em;
   margin-bottom: 1em;
   border: 2px #2A9D8F solid;
@@ -581,7 +590,7 @@ header {
 }
 
 #last__name {
-  width: 30em;
+  width: 20em;
   height: 3em;
   margin-bottom: 1em;
   border: 2px #2A9D8F solid;
@@ -591,7 +600,7 @@ header {
 }
 
 #email__address {
-  width: 30em;
+  width: 20em;
   height: 3em;
   margin-bottom: 1em;
   border: 2px #2A9D8F solid;
@@ -601,7 +610,7 @@ header {
 }
 
 #subject {
-  width: 30em;
+  width: 20em;
   height: 3em;
   margin-bottom: 1em;
   border: 2px #2A9D8F solid;
@@ -611,7 +620,7 @@ header {
 }
 
 #message {
-  width: 30em;
+  width: 20em;
   height: 10em;
   margin-bottom: 1em;
   border: 2px #2A9D8F solid;
@@ -950,12 +959,74 @@ body {
     padding: 0px 500px 0px 500px;
   }
 }
+@media (min-width: 375px) {
+  .hero__typer {
+    text-align: center;
+    color: #adc4b6;
+  }
+
+  .hero__lower__text {
+    margin: 0px 0px 10px 0px;
+    color: #E9C46A;
+    text-align: center;
+  }
+
+  .main__nav {
+    margin-top: 6px;
+    margin-left: 6px;
+    height: 115px;
+  }
+
+  .projects__inner__card {
+    width: 300px;
+  }
+
+  #lower__form {
+    padding: 0px;
+    margin-top: 70px;
+  }
+
+  .lower__form__inner {
+    padding: 30px 0px 0px 0px;
+  }
+  .lower__form__inner hr {
+    padding-right: 77px;
+    margin: 12px 0px 2px 110px;
+  }
+
+  .lower__form__inner__description {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .lower__form__inner__description h1 {
+    padding: 0px;
+  }
+  .lower__form__inner__description h3 {
+    padding: 0px 0px 0px 153px;
+  }
+  .lower__form__inner__description a {
+    padding-left: 20px;
+    padding-right: 18px;
+  }
+  .lower__form__inner__description p {
+    height: 120px;
+    width: 300px;
+    padding: 0px 0px 0px 40px;
+    margin: 15px 0px 10px 0px;
+  }
+}
 @media (min-width: 459px) {
   .lower__form__inner {
     padding: 0px;
   }
   .lower__form__inner hr {
-    margin-left: 187px;
+    margin-left: 143px;
   }
   .lower__form__inner p {
     height: 145px;
@@ -966,7 +1037,7 @@ body {
   }
 
   #lower__form {
-    margin: 40px 0px 20px 40px;
+    margin: 40px 0px 20px 10px;
   }
 
   .lower__form__inner__description {
@@ -988,13 +1059,19 @@ body {
   }
 
   .hero__typer {
-    font-size: 58px;
+    font-size: 90px;
+    padding-right: 30px;
   }
 
   .hero__lower__text {
     text-align: center;
-    font-size: 35px;
+    font-size: 55px;
     padding-right: 40px;
+    margin-top: 30px;
+  }
+
+  .projects__inner__card {
+    width: 420px;
   }
 }
 @media (min-width: 720px) {
