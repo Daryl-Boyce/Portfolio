@@ -456,7 +456,7 @@ ul.nav__drop__down a {
 .projects__inner__cards__image {
   width: 100%;
   height: 80%;
-  background-image: url(/assets/hero__image__2.jpg);
+  background-image: url(/assets/hero__image__1.png);
   background-repeat: none;
   background-size: cover;
   background-position-x: center;
@@ -732,6 +732,35 @@ body {
   align-items: center;
 }
 
+.projects__main__inner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.projects__main__card {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+
+.project__content {
+  display: flex;
+  width: 47%;
+  height: 421px;
+  background-image: url(/assets/movie__database__layout.png);
+  background-repeat: no-repeat;
+  border: solid 3px #E9C46A;
+  border-radius: 16px;
+}
+
+.project__table__one {
+  width: 100%;
+}
+
 .projects__card__image {
   display: flex;
   height: 50%;
@@ -786,7 +815,6 @@ body {
   width: 80%;
   background-color: none;
   border: solid 3px #E9C46A;
-  padding-bottom: 304px;
   background-color: #1f756b;
   border-radius: 16px;
   margin-top: 365px;
@@ -1024,6 +1052,7 @@ body {
 @media (min-width: 459px) {
   .lower__form__inner {
     padding: 0px;
+    margin-top: 20px;
   }
   .lower__form__inner hr {
     margin-left: 143px;
@@ -1042,6 +1071,7 @@ body {
 
   .lower__form__inner__description {
     padding: 0px;
+    margin-top: 0px;
   }
 
   .lower__form__inner__description h1 {
@@ -1092,8 +1122,8 @@ body {
 
   .projects__inner__card {
     display: flex;
-    width: 15em;
-    height: 100%;
+    width: 500px;
+    height: 400px;
     margin-top: 2em;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1123,18 +1153,22 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 20px;
   }
 
   .lower__form__inner {
     padding: 0px;
+    margin-top: 1980px;
   }
   .lower__form__inner hr {
-    margin-left: 40%;
+    width: 224px;
+    margin-left: 217px;
   }
   .lower__form__inner p {
+    font-size: 20px;
     height: 90px;
     padding: 0px 100px 0px 100px;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
   }
   .lower__form__inner h3 {
     padding: 0px 200px 0px 200px;
@@ -1146,7 +1180,69 @@ body {
   }
 
   #lower__form {
-    margin-left: 80px;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+
+  #first__name {
+    width: 35em;
+    height: 20em;
+    margin-bottom: 1em;
+    border: 2px #2A9D8F solid;
+    border-radius: 16px;
+    background-color: #E9C46A;
+    padding-left: 7px;
+  }
+
+  #last__name {
+    width: 35em;
+    height: 20em;
+    margin-bottom: 1em;
+    border: 2px #2A9D8F solid;
+    border-radius: 16px;
+    background-color: #E9C46A;
+    padding-left: 7px;
+  }
+
+  #email__address {
+    width: 35em;
+    height: 20em;
+    margin-bottom: 1em;
+    border: 2px #2A9D8F solid;
+    border-radius: 16px;
+    background-color: #E9C46A;
+    padding-left: 7px;
+  }
+
+  #subject {
+    width: 35em;
+    height: 20em;
+    margin-bottom: 1em;
+    border: 2px #2A9D8F solid;
+    border-radius: 16px;
+    background-color: #E9C46A;
+    padding-left: 7px;
+  }
+
+  #message {
+    width: 40em;
+    height: 60em;
+    margin-bottom: 1em;
+    border: 2px #2A9D8F solid;
+    border-radius: 16px;
+    background-color: #E9C46A;
+    padding-left: 7px;
+  }
+
+  #submit {
+    width: 15em;
+    height: 30em;
+    margin-bottom: 1em;
+    border: 2px #E9C46A solid;
+    border-radius: 16px;
+    background-color: #2A9D8F;
+    color: #E9C46A;
+    font-size: 14px;
   }
 }
 @media (min-width: 1200px) {
@@ -1194,6 +1290,14 @@ body {
     align-items: center;
     color: #E9C46A;
   }
+
+  .lower__form__inner {
+    margin-top: 50px;
+  }
+  .lower__form__inner hr {
+    width: 42.27%;
+    margin-left: 292px;
+  }
 }
 @media (min-width: 1850px) {
   .hero__banner__typing {
@@ -1223,15 +1327,29 @@ body {
   }
 
   .projects__inner {
-    width: 75%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .projects__inner__card {
+    width: 600px;
+    height: 700px;
   }
 
   #lower__form {
-    margin-left: 188px;
+    margin-left: 30px;
   }
 
   .lower__form__inner p {
     width: 438px;
+  }
+
+  .lower__form__inner {
+    margin-top: 850px;
+  }
+  .lower__form__inner hr {
+    width: 30.27%;
+    margin-left: 660px;
   }
 }
 
