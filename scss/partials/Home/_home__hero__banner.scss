@@ -23,7 +23,7 @@
     width: 100%;
     height: 100%;
     text-align: center;
-    color: #0D1321;
+    color: #d65f83;
     font-family: "Merriweather", serif;
     font-size: 40px;
     font-style: bold;
@@ -38,6 +38,10 @@
     
   }
   
+  .container {
+font-size: 150px;
+  }
+
   /// Typing effect
   @keyframes typing {
     from { width: 0 }

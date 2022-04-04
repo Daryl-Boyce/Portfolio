@@ -4,9 +4,9 @@ var typed = new Typed('.container', {
     // these are the sentences that get typed out
     showCursor: false,
     // this disabled the standard cursor
-    typeSpeed: 100,
+    typeSpeed: 50,
     smartBackspace: true,
-    backSpeed: 100,
+    backSpeed: 50,
     backDelay: 1000,
     // These set the speed and the amount of characters removed
     loop: true,
