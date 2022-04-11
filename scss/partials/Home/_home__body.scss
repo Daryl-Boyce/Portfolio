@@ -21,15 +21,20 @@ body {
 
 }
 
-
 .inner__content {
     display: flex;
     width: 100%;
-    height: 123em;
+    height: 870px;
     background-color: #0D1321;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-end;
     align-items: center;
 }
-
+// 
+// 1000px screen //
+@media (min-width: 1000px) { 
+    .inner__content {
+        min-height: 1500px;
+    }
+}

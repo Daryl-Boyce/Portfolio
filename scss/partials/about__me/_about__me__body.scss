@@ -1,6 +1,6 @@
 body {
     display: flex;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     margin: 0px;
     font-family: "Merriweather", serif;
@@ -10,7 +10,7 @@ body {
     align-items: flex-start;
     justify-content: flex-start;
 }
-
+// 
 .about__me__page__body__inner {
     display: flex;
     height: 100%;
@@ -26,7 +26,6 @@ body {
         text-transform: capitalize;
         color: #E9C46A;
     }
-
     hr {
         display: flex;
         border: solid #E9C46A 2px;
@@ -34,5 +33,4 @@ body {
         width: 20%;
         margin: 30px 200px 30px 200px;
     }
-    
 }

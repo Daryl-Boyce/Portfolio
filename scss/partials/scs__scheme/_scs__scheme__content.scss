@@ -12,7 +12,6 @@
         font-size: 20px;
         color: #2A9D8F;
     }
-    
     hr {
         display: flex;
         border: solid #E9C46A 2px;
@@ -20,9 +19,8 @@
         width: 20%;
         margin: 30px 200px 2px 200px;
     }
-    
 }
-
+// 
 @media screen and (min-width: 860px) {
     .scs__scheme__content {
         p {
@@ -30,7 +28,7 @@
         }
     }
 }
-
+//
 @media screen and (min-width: 1300px) {
     .scs__scheme__content {
         p {

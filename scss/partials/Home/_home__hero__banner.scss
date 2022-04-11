@@ -7,17 +7,15 @@
     background-repeat: no-repeat;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;   
 }
-
 .hero__banner__typing {
     display: flex;
     width: 97%;
     height: 11%;
     
 }
-
+// 
 .hero__banner__typing h1 {
     display: inherit;
     width: 100%;
@@ -35,48 +33,70 @@
     animation: 
       typing 1.5s steps(100, end),
       blink-caret .5s step-end infinite;
-    
   }
-  
+// 
   .container {
 font-size: 150px;
   }
-
   /// Typing effect
   @keyframes typing {
     from { width: 0 }
     to { width: 100% }
   }
-  
-  // Typing blinking cursor effect 
+// 
+// Typing blinking cursor effect 
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: #0D1321 }
   }
-  
+// 
 @keyframes fade__in {
     from {opacity: 0%} to{opacity: 1% }
 }
-
+// 
 @keyframes fade__in {
     from {opacity: 1%} to{opacity: 100% }
 }
+// 
 .hero__banner__fade__text {
     display: flex;
     animation:
      fade__in 4.3s;    
 }
-
-
-// 720px screen
-@media (min-width: 720px){ 
-  .hero__banner__typing {
-   display: flex;
-   width: 93%;
-   height: 10%;
-  }   
+// 400px screen //
+@media (min-width: 400px){
+  .container {
+    font-size: 40px;
+    padding-right: 51px;
+  }
 }
-
+// 
+@media (min-width: 400px){ 
+ .hero__banner__typing h1 {
+   display: inherit;
+   width: 100%;
+   height: 75%;
+   color: #0D1321;
+   font-family: "Merriweather", serif;
+   font-size: 50px;
+   overflow: hidden; /* Ensures the content is not revealed until the animation */
+   border-right: .1em solid #0D1321; /* The typwriter cursor */
+   white-space: nowrap; /* Keeps the content on a single line */
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .12em; /* Adjust as needed */
+   animation: 
+     typing 1.3s steps(30, end),
+     blink-caret .7s step-end infinite;
+ }
+}
+// 
+// 720px screen
+@media (min-width: 720px){
+  .container {
+    font-size: 80px;
+  }
+}
+// 
 @media (min-width: 720px){ 
  .hero__banner__typing h1 {
    display: inherit;
@@ -95,7 +115,7 @@ font-size: 150px;
      blink-caret .7s step-end infinite;
  }
 }
-
+// 
 // 900px screen
 @media (min-width: 900px){ 
   .hero__banner__typing {
@@ -104,7 +124,7 @@ font-size: 150px;
    height: 10%;
   }   
 }
-
+// 
 @media (min-width: 900px){ 
  .hero__banner__typing h1 {
    display: inherit;
@@ -123,7 +143,7 @@ font-size: 150px;
      blink-caret .7s step-end infinite;
  }
 }
-
+// 
 // 1200px screen
 @media (min-width: 1200px){ 
   .hero__banner__typing {
@@ -132,7 +152,7 @@ font-size: 150px;
    height: 15%;
   }   
 }
-
+// 
 @media (min-width: 1200px){ 
  .hero__banner__typing h1 {
    display: inherit;
@@ -151,7 +171,7 @@ font-size: 150px;
      blink-caret .7s step-end infinite;
  }
 }
-
+// 
 // 1500px screen
 @media (min-width: 1500px){ 
   .hero__banner__typing {
@@ -160,7 +180,7 @@ font-size: 150px;
    height: 15%;
   }   
 }
-
+// 
 @media (min-width: 1500px){ 
  .hero__banner__typing h1 {
    display: inherit;
@@ -179,9 +199,7 @@ font-size: 150px;
      blink-caret .7s step-end infinite;
  }
 }
-
-
-
+// 
 // FULLSCREEN
  @media (min-width: 1850px){ 
    .hero__banner__typing {
@@ -190,7 +208,7 @@ font-size: 150px;
     height: 20%;
    }   
 }
-
+// 
 @media (min-width:1850px){ 
   .hero__banner__typing h1 {
     display: inherit;
