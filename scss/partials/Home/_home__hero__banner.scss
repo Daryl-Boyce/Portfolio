@@ -9,11 +9,11 @@
     align-items: center;
     justify-content: center;   
 }
+// 
 .hero__banner__typing {
     display: flex;
     width: 97%;
     height: 11%;
-    
 }
 // 
 .hero__banner__typing h1 {
@@ -33,16 +33,15 @@
     animation: 
       typing 1.5s steps(100, end),
       blink-caret .5s step-end infinite;
-  }
+}
 // 
-  .container {
-font-size: 150px;
-  }
-  /// Typing effect
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
+.container {font-size: 150px;
+}
+/// Typing effect
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
 // 
 // Typing blinking cursor effect 
   @keyframes blink-caret {
@@ -60,8 +59,7 @@ font-size: 150px;
 // 
 .hero__banner__fade__text {
     display: flex;
-    animation:
-     fade__in 4.3s;    
+    animation: fade__in 4.3s;    
 }
 // 400px screen //
 @media (min-width: 400px){
@@ -85,8 +83,8 @@ font-size: 150px;
    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
    letter-spacing: .12em; /* Adjust as needed */
    animation: 
-     typing 1.3s steps(30, end),
-     blink-caret .7s step-end infinite;
+    typing 1.3s steps(30, end),
+    blink-caret .7s step-end infinite;
  }
 }
 // 

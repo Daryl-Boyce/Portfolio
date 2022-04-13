@@ -32,7 +32,7 @@
             <div class="projects">
                 <!--  -->
                 <!-- Internal space for cards -->
-                <div class="projects__inner">
+                <div id="projects__inner" class="projects__inner">
                     <!--  -->
                     <!-- HTML for cards  -->
                     <div class="projects__inner__card">
@@ -41,7 +41,7 @@
                         <a href="https://wordpress.daryl-boyce.netmatters-scs.co.uk/" id="woocommerce__image" >
                         </a>
                         <div class="projects__inner__card__lower">
-                            <h2>Wordpress WooCommerce Website</h2>
+                            <a href="https://wordpress.daryl-boyce.netmatters-scs.co.uk/"><h2>Wordpress WooCommerce Website</h2></a>
                             <div class="projects__inner__card__lower__aside">
                                 <a href="https://wordpress.daryl-boyce.netmatters-scs.co.uk/">veiw project</a>
                                 <i class="fas fa-arrow-right"></i>
@@ -99,6 +99,7 @@
 
     <script src="jquery-3.6.0.js"></script>
     <script src="js\plugins\typed.js-master\lib\typed.js"></script>
+    <script src="form__function.php"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
     <script src="main.js"></script>
 

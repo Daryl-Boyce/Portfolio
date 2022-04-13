@@ -39,7 +39,7 @@
     justify-content: space-between;
     padding-top: 10px;
 }
-
+// 
 .main__inner__nav__top__box {
     display: flex;
     font-size: 4em;
@@ -104,19 +104,18 @@
     }
     
 }
-
 // 
 // 
 .main__nav:hover {
     height: 246.25px;
     width: 166.266px;
 }
-
+// 
 .main__nav:hover .main__iner__nav__burger__menu {
     display: none;
 
 }
-
+// 
 .main__nav:hover .main__inner__nav__links {
     display: flex;
     width: 100%;

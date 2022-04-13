@@ -4,7 +4,7 @@
     height: 100%;
     background-color: #0D1321;
 }
-
+// 
 .lower__form__inner {
     display: flex;
     width: 100%;
@@ -15,11 +15,9 @@
         display: flex;
         border: solid #E9C46A 2px;
         width: 85%;
-    }
-    
+    } 
 }
-
-
+// 
 .lower__form__inner__description {
     display: flex;
     width: 100%;
@@ -30,8 +28,6 @@
     justify-content: center;
     margin-bottom: 20px;
     
-
-
     h1{
         text-transform: capitalize;
         color: #E9C46A;
@@ -45,7 +41,7 @@
         color: #2A9D8F;
     }
 }
-
+// 
 .lower__form__inner__inputs {
     display: flex;
     width: 100%;
@@ -58,9 +54,8 @@
         justify-content: flex-start;
         width: 100%;    
     }
-
 }
-
+// 
 #first__name {
     width: 55%;
     height: 3em;
@@ -69,9 +64,8 @@
     border-radius: 16px;
     background-color: #E9C46A;
     padding-left: 7px;
-    
 }
-
+// 
 #last__name {
     width: 55%;
     height: 3em;
@@ -80,9 +74,8 @@
     border-radius: 16px;
     background-color: #E9C46A;
     padding-left: 7px;
-    
 }
-
+// 
 #email__address {
     width: 55%;
     height: 3em;
@@ -90,10 +83,9 @@
     border: 2px #2A9D8F solid ;
     border-radius: 16px;
     background-color: #E9C46A;
-    padding-left: 7px;
-    
+    padding-left: 7px; 
 }
-
+// 
 #subject {
     width: 55%;
     height: 3em;
@@ -102,9 +94,8 @@
     border-radius: 16px;
     background-color: #E9C46A;
     padding-left: 7px;
-    
 }
-
+// 
 #message {
     width: 55%;
     height: 10em;
@@ -113,9 +104,8 @@
     border-radius: 16px;
     background-color: #E9C46A;
     padding-left: 7px;
-    
 }
-
+// 
 #submit {
     width: 20em;
     height: 4em;
@@ -126,8 +116,6 @@
     color: #E9C46A;
     font-size: 14px;
 }
-
-
 // 
 // 700px screen //
 @media (min-width: 700px) { 
