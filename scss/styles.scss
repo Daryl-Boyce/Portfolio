@@ -26,4 +26,8 @@
 @use "partials/scs__scheme/_scs__scheme__body.scss";
 
 @use "partials/scs__scheme/_scs__scheme__content.scss";
+// 
+// form 
+@use "partials/form/form__success.scss";
 
+@use "partials/form/form__error.scss";

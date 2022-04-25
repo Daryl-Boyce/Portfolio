@@ -39,7 +39,8 @@
 		<a href="index.php#projects__inner">my portfolio</a>
 		<a href="coding__examples.php">coding examples</a>
 		<a href="scs__scheme.php">scs scheme</a>
-	</div>      
+	</div>
+</nav>      
 <!--    -->
 <!--  -->
 <!-- -->

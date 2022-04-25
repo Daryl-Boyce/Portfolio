@@ -13,7 +13,7 @@ body {
 // 
 .coding__example__page__body__inner {
     display: flex;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     flex-direction: column;
     align-content: center;
@@ -36,12 +36,18 @@ body {
 .coding__text__block__1 {
     display: flex;
     color: #E9C46A;
+    height: 100%;
     width: 77%;
     font-size: 24px;
     flex-direction: column;
     align-content: center;
     align-items: center;
     text-align: center;
+
+    p{
+        width:100%;
+    }
+
 }
 // 
 @media (min-width:1850px){
@@ -57,7 +63,7 @@ body {
         display: flex;
         color: #E9C46A;
         width: 35%;
-        font-size: 24px;
+        font-size: 20px;
         flex-direction: column;
         align-content: center;
         align-items: center;

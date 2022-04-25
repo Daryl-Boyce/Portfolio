@@ -1,0 +1,30 @@
+.error__style__under{
+    display: flex;
+    width: 100%;
+    height: 20px;
+    color: red;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+#error__name{
+    display: none;
+}
+
+#error__last{
+    display: none;
+}
+
+#error__email{
+    display: none;
+}
+
+#error__subject{
+    display: none;
+}
+
+#error__message{
+    display: none;
+}

@@ -5,7 +5,8 @@
 <?php
 	include ('db__connection.php');
     include ('header.php');
-    include ('contact__submit.php');
+    
+    OpenCon();
 ?>
 <body>
         </div>
@@ -81,13 +82,23 @@
                     <a href="#">contact@darylboyce.com</a>
                 </div>
                 <div class="lower__form__inner__inputs">
-                    <form>
-                        <input type="text" id="first__name" placeholder="First Name*">
-                        <input type="text" id="last__name" placeholder="Last Name*">
-                        <input type="text" id="email__address" placeholder="Email Address*">
-                        <input type="text" id="subject" placeholder="Subject">
-                        <textarea type="text" id="message" placeholder="Message"></textarea>
-                        <input type="button" id="submit" value="Submit">
+                    <form method= "post" onsubmit="return validateForm()"  action="form__success.php" name="contact__me">
+                        <input type="text" id="first__name" name="first__name" placeholder="First Name*">
+                        <span id="error__name" class="error__style__under">please enter your name</span>
+                        <!--  -->
+                        <input type="text" id="last__name" name="last__name" placeholder="Last Name*">
+                        <span id="error__last" class="error__style__under">Please enter your Last name</span>
+                        <!--  -->
+                        <input type="text" id="email__address" name="email__address" placeholder="Email Address*">
+                        <span id="error__email" class="error__style__under">Please enter a vaild email</span>
+                        <!--  -->
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                        <span id="error__subject" class="error__style__under">Please enter your subject</span>
+                        <!--  -->
+                        <textarea type="text" id="message" name="message" placeholder="Message"></textarea>
+                        <span id="error__message" class="error__style__under">Please enter your message</span>
+                        <!--  -->
+                        <input  type="submit" id="submit"  value="Submit">
                     </form>
                 </div>
             </div>
@@ -99,7 +110,7 @@
 
     <script src="jquery-3.6.0.js"></script>
     <script src="js\plugins\typed.js-master\lib\typed.js"></script>
-    <script src="form__function.php"></script>
+    <script src="form__validation.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
     <script src="main.js"></script>
 
