@@ -1,11 +1,6 @@
-<!---->
-<!-- -->
-<!--  -->
-<!--   -->
 <?php
 	include ('db__connection.php');
     include ('header.php');
-    
     OpenCon();
 ?>
 <body>
@@ -23,11 +18,16 @@
             <!--  -->
             <!--  -->
         </header>
-        
+        <!--  -->
+    <!--  -->
     </div>
+    <!--  -->
+            <!-- Portfolio Title -->
+            <H1 id="portfolio__title">Portfolio</H1>
     <!--  -->
         <!-- Main section of the home page -->
         <div class="inner__content">
+            
             <!--  -->
             <!-- Project cards -->
             <div class="projects">
@@ -45,7 +45,7 @@
                             <a href="https://wordpress.daryl-boyce.netmatters-scs.co.uk/"><h2>Wordpress WooCommerce Website</h2></a>
                             <div class="projects__inner__card__lower__aside">
                                 <a href="https://wordpress.daryl-boyce.netmatters-scs.co.uk/">veiw project</a>
-                                <i class="fas fa-arrow-right"></i>
+                                <i class="fas fa-2x fa-arrow-right"></i>
                             </div>
                         </div>
                         <!--  -->
@@ -62,7 +62,7 @@
                             <h2>netmatters webpage</h2>
                             <div class="projects__inner__card__lower__aside">
                                 <h4>view project</h4>
-                                <i class="fas fa-arrow-right"></i>
+                                <i class="fas fa-2x fa-arrow-right"></i>
                             </div>
                         </div>
                         
@@ -99,20 +99,17 @@
                         <span id="error__message" class="error__style__under">Please enter your message</span>
                         <!--  -->
                         <input  type="submit" id="submit"  value="Submit">
-                    </form>
+                    </form> 
                 </div>
             </div>
         </div>
-   
-    
-
-
-
+    <!--  -->
+        <!-- Javascript scripts  -->
     <script src="jquery-3.6.0.js"></script>
     <script src="js\plugins\typed.js-master\lib\typed.js"></script>
-    <script src="form__validation.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="smooth__scroll.js"></script>
+    <script src="form__validation.js"></scrip>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
     <script src="main.js"></script>
-
 </body>
-</html>

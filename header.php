@@ -36,7 +36,7 @@
 		<!-- Nav Links -->
 		<div class="main__inner__nav__links">
 		<a href="about__me.php">about me</a>
-		<a href="index.php#projects__inner">my portfolio</a>
+		<a href="index.php#portfolio__title">my portfolio</a>
 		<a href="coding__examples.php">coding examples</a>
 		<a href="scs__scheme.php">scs scheme</a>
 	</div>

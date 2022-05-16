@@ -23,8 +23,11 @@ body {
 }
 // 
 .coding__example__page__header {
+    display: flex;
     color: #E9C46A;
     text-decoration: underline;
+    justify-content: right;
+
 }
 // 
 #code1 {
@@ -63,11 +66,17 @@ body {
         display: flex;
         color: #E9C46A;
         width: 35%;
-        font-size: 20px;
+        font-size: 35px;
         flex-direction: column;
         align-content: center;
         align-items: center;
         text-align: center;
     }
 }
-// 
+//
+//
+@media (min-width:1850px){
+    .coding__example__page__header {
+        justify-content: center;
+    }
+}

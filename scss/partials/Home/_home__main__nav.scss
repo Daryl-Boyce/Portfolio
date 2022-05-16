@@ -12,7 +12,7 @@
     left: 0;
     background-color: #0D1321;
     margin: 1.5em 0em 0em 1.5em;
-    
+    z-index: 100;
 }
 // 
 // Inner of the nav bar
@@ -54,6 +54,8 @@
     a{
         color: #E9C46A;
         text-decoration: none;
+        scroll-behavior: smooth;
+
     }
 }
 // 
@@ -72,6 +74,7 @@
     a {
         color: #2A9D8F;
         padding: 10px 0px 10px 0px;
+        scroll-behavior:smooth;
     }
 }
 // 
@@ -128,3 +131,4 @@
     padding-top: 0.5em;
     justify-content: flex-start;
 }
+

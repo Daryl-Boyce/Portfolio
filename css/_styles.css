@@ -9,6 +9,20 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+#portfolio__title {
+  display: flex;
+  font-size: 70px;
+  font-weight: 400;
+  color: #E9C46A;
+  width: 100%;
+  justify-content: center;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  margin: 20px 0px 0px 0px;
 }
 
 .home__page__body__inner {
@@ -18,6 +32,7 @@ body {
   flex-direction: column;
   align-content: center;
   align-items: center;
+  border-bottom: 4px #E9C46A solid;
 }
 
 .inner__content {
@@ -31,9 +46,19 @@ body {
   align-items: center;
 }
 
+a:link {
+  color: pink;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #b0dce2;
+  text-decoration: none;
+}
+
 @media (min-width: 1000px) {
   .inner__content {
-    min-height: 1500px;
+    min-height: 2100px;
   }
 }
 .hero__banner {
@@ -290,6 +315,7 @@ body {
   left: 0;
   background-color: #0D1321;
   margin: 1.5em 0em 0em 1.5em;
+  z-index: 100;
 }
 
 .main__inner__nav {
@@ -329,6 +355,7 @@ body {
 .main__inner__nav__top__box a {
   color: #E9C46A;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 .main__inner__nav__links {
@@ -346,6 +373,7 @@ body {
 .main__inner__nav__links a {
   color: #2A9D8F;
   padding: 10px 0px 10px 0px;
+  scroll-behavior: smooth;
 }
 
 .main__inner__nav__contact {
@@ -402,6 +430,13 @@ body {
   width: 100%;
   height: 100%;
   background-color: #0D1321;
+  z-index: 0;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .projects__inner {
@@ -493,8 +528,11 @@ body {
 }
 
 @media (min-width: 1000px) {
-  .project__inner {
-    max-height: 1500px;
+  .projects__inner__card__lower h2 {
+    font-size: 50px;
+  }
+  .projects__inner__card__lower a {
+    font-size: 30px;
   }
 }
 header {
@@ -833,8 +871,10 @@ body {
 }
 
 .coding__example__page__header {
+  display: flex;
   color: #E9C46A;
   text-decoration: underline;
+  justify-content: right;
 }
 
 #code1 {
@@ -870,11 +910,16 @@ body {
     display: flex;
     color: #E9C46A;
     width: 35%;
-    font-size: 20px;
+    font-size: 35px;
     flex-direction: column;
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+@media (min-width: 1850px) {
+  .coding__example__page__header {
+    justify-content: center;
   }
 }
 body {
@@ -1010,6 +1055,7 @@ body {
   height: 100vh;
   padding-left: 150px;
   align-items: center;
+  justify-content: center;
 }
 .form__success__message h1 {
   width: 50%;
