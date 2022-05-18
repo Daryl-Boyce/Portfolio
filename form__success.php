@@ -3,8 +3,8 @@
 <!--  -->
 <!--   -->
 <?php
-    include ('header.php');
-    include ('contact__submit.php');
+    include ('php\header.php');
+    include ('php\contact__submit.php');
 ?>
 <body>
 

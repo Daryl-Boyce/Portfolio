@@ -1,6 +1,6 @@
 <?php
-	include ('db__connection.php');
-    include ('header.php');
+	include ('php\db__connection.php');
+    include ('php\header.php');
     OpenCon();
 ?>
 <body>
@@ -105,11 +105,11 @@
         </div>
     <!--  -->
         <!-- Javascript scripts  -->
-    <script src="jquery-3.6.0.js"></script>
+    <script src="js\jquery-3.6.0.js"></script>
     <script src="js\plugins\typed.js-master\lib\typed.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="smooth__scroll.js"></script>
-    <script src="form__validation.js"></scrip>
+    <script src="js\smooth__scroll.js"></script>
+    <script src="js\form__validation.js"></scrip>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
-    <script src="main.js"></script>
+    <script src="js\main.js"></script>
 </body>

@@ -3,8 +3,8 @@
 <!--  -->
 <!--   -->
 <?php
-	include ('db__connection.php');
-    include ('header.php')
+	include ('php\db__connection.php');
+    include ('php\header.php')
 ?>
 <body class="about__me__page__body">
     </nav>
